@@ -1,0 +1,34 @@
+h2 {
+    color: red;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+form {
+    color: black;
+    background-color: magenta;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer {
+    color: hwb(39 4% 57%);
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

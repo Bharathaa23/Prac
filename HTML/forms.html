@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms b</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8000/">
+        <p>Name:</p>
+        <input type="text" name="Name" required minlength="5" maxlength="20">
+        <p>Mobile no:</p>
+        <input type="tel" name="Mobile" required minlength="10" max="20"> <br><br>
+        <input type="submit">    
+    </form>
+
+<hr>
+
+<h1>Course registration form </h1>
+<form action="www.google.com">
+ <fieldset>
+    
+    <table>
+        <tr><td><label for="Name"> First Name </label></td>
+        <td><input type="text" name="FN" placeholder="Enter F name" size="15" maxlength="15"></td></tr>
+        <tr><td><label for="">Surname</label></td>
+        <td><input type="text" name="LN" placeholder="Enter Lname" size="15" maxlength="15"></td></tr>
+        <tr><td><label for="">Mobile NO</label> </td>
+        <td><input type="tel" name="Mob" placeholder="mob" size="15" maxlength="10" minlength="10"></td></tr>
+        <tr><td><label for="">email</label></td>
+        <td><input type="email" placeholder="email" name="email" size="15"></td></tr>
+        <tr><td><label for="">password</label></td>
+        <td><input type="password" size="15" placeholder="password" name="password" minlength="5"></td></tr>
+        <tr><td><label for=""> confirm password</label></td>
+        <td><input type="password" size="15" placeholder="password" minlength="5" name="Con password"></td></tr>
+        <tr><td><label for="">DOB</label></td>
+            <td><input type="date" name="dob"></td></tr>
+        <tr><td><label for="">Gender</label></td>
+        <td><input type="radio" name="gender" value="M">Male<input type="radio" name="gender" value="F">FeMale
+            <input type="radio" name="gender" value="C">Custom</td></tr>
+        <tr><td><label for="">Select country</label></td>
+        <td><select name="country" id="">
+            <option value="IND">INDIA</option>
+            <option value="USA">USA</option>
+            <option value="CHINA">CHINA</option>
+        </select></td></tr>
+        <tr><td><label for="">Upload picture</label></td>
+        <td><input type="file" name="pic"></td></tr>
+        <tr><td><input type="reset"></td></tr>
+    </table>
+
+ </fieldset>
+
+ <fieldset>
+    <legend>Course Details</legend>
+    <label for=""> Select Course</label>
+    <select name="Courses" id="">
+        <option value="PY">Python </option>
+        <option value="JA">java</option>
+        <option value="CJ">core java</option>
+        <option value="HTML">html</option>
+    </select> <br>
+    <label for="">delivery mode</label>
+    <input type="checkbox" name="mode1" value="ON">Online
+    <input type="checkbox" name="mode2" value="OFF">Offline
+    <p>Comments</p>
+    <textarea name="Commments" id="" cols="19" rows="5"></textarea>
+ </fieldset>
+<button><img src="submit.jpg" alt="submit" height="50" width="75" type="input"></button>
+
+</form>
+</body>
+</html>

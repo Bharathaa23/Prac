@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /* p{
+            background-color: black;
+        }
+        .para{
+            background-color: pink;
+        }
+        #name{
+            background-color: yellow;
+        }
+    body p{
+        background-color: blue;
+    }
+    /* specificity  : 0 1 3 */
+    /* ul li>a[href]{
+        background-color: orange;
+    
+    }
+    /* specificity: 0 2 2 */
+    /* li a[href ^= "https"]:first-child {
+        background-color: violet;
+    } */
+    /* specificity: 0 0 4 */
+    /* body ul > li> a{
+        background-color: aqua;
+    }  */ */ */
+    /* specificity: 0 1 1 */
+     a.firsta{
+        background-color: red;
+     }
+     /* specificity: 0 1 1   order of occurence is considered*/
+     a[href ^= "https"]{
+        background-color: navy;
+     }
+     a{
+        background-color: black !important;
+        color: white;
+     }
+     a{
+        background-color: brown !important;
+        color: magenta;
+     }
+
+    </style>
+</head>
+<body>
+    <p  class="para" id="name" >
+        Le développement frontend concerne la création des éléments visuels et interactifs d'une application logicielle, se
+        concentrant sur l'interface utilisateur et l'expérience utilisateur. Ce processus utilise HTML pour la structuration du
+        contenu, CSS pour le style et JavaScript pour ajouter de l'interactivité et un comportement dynamique. Le design
+        adaptatif garantit l'adaptabilité à divers appareils, et des frameworks comme React ou Angular simplifient le
+        développement. Les développeurs frontend accordent une importance particulière à la compatibilité entre les navigateurs,
+        à l'accessibilité web et à l'expérience utilisateur. Ils interagissent avec des services backend via des APIs,
+        implémentent AJAX pour la récupération asynchrone de données, et construisent souvent des applications monopages avec
+        des architectures basées sur des composants. Des outils comme Git, Webpack et les préprocesseurs CSS contribuent à la
+        gestion du code et à l'optimisation. Le développement frontend intègre également des concepts tels que les Progressive
+        Web Apps pour des expériences semblables à des applications natives et l'apprentissage continu, étant donné l'évolution
+        rapide des technologies dans ce domaine.
+    </p>
+
+    <h1>Best websites for frontend development</h1>
+    <ul>  
+        <li><a class="firsta" href="https://www.w3schools.com/css/default.asp" target="_blank" style="background-color: pink;">W3Schools</a></li>
+        <li><a href="https://codepen.io/" target="_blank">codeopen</a></li>
+        <li><a href="https://codepen.io/" target="_blank">CSSBattle</a></li>
+    </ul>
+</body>
+</html>

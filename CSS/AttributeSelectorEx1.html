@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web development</title>
+    <style type="text/css">
+        .main{
+            background-color: rgb(173, 221, 0);
+            color: rgb(24, 30, 41);
+        }
+        .font1{
+            font-family: cursive;
+            font-weight: bolder;
+        }
+        .sub{
+            background-color:black ;
+            color: wheat;
+        }
+        .font2{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-weight: bold;
+        }
+        .end{
+            background-color: rgb(231, 83, 14);
+            color: aqua;
+        }
+        .footer{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+        }
+
+        /* Attribute selction ex */
+        a[href="https://en.wikipedia.org/wiki/Internet"]
+        {
+            color: rgb(117, 38, 51);
+        }
+        a[href*= "w3schools" ]{
+            color:red
+        }
+        a[href ^="#"]{
+            color: darkred;
+        }
+        a[href$=".html"]{
+            color: yellow;
+        }
+        /* case insensitive */
+        /* a[href$=".pdf" ]{
+            color: grey;               
+        } */
+         /* case sensitive */
+        a[href$=".pdf" i ]{
+            color: grey;               
+        }
+
+        div[class~="font1"]{
+            border: 5px solid blue;
+        }
+
+        a[href|="en"]{
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main font1">
+    <h1>Web development</h1>
+    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web
+        design,
+        web publishing, <a href="https://www.geeksforgeeks.org/internet-and-web-programming/" target="_blank">web
+            programming</a>,
+        and <a href="https://www.techtarget.com/searchdatamanagement/definition/database-management-system"
+            target="_blank">database management</a>. It is the creation of an application that works over the
+        <a href="https://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>i.e. websites.
+    </p>
+    <br>
+    <a href="https://www.w3schools.com/whatis/" target="_blank">to google abount web developement roadmap</a>
+    
+    <h2>layers of web development</h2>
+    <ul>
+        <li><a href="#FE">frontend</a></li>
+        <li><a href="#BE">back-end</a></li>
+        <li><a href="#DB">database</a></li>
+    </ul>
+</div>
+    
+<div class="sub font2">
+    <h2 id="FE">FrontENd</h2>
+    <p>Frontend development involves creating the visual and interactive elements of a software application, focusing on the
+        user interface and experience. This process utilizes HTML for structuring content, CSS for styling, and JavaScript
+        for
+        adding interactivity and dynamic behavior. Responsive design ensures adaptability to various devices, and frameworks
+        like React or Angular streamline development. Frontend developers prioritize cross-browser compatibility, web
+        accessibility, and user experience. They interact with backend services through APIs, implement AJAX for
+        asynchronous
+        data retrieval, and often build single-page applications with component-based architectures. Tools like Git,
+        Webpack,
+        and CSS preprocessors contribute to code management and optimization. Frontend development also embraces concepts
+        like
+        Progressive Web Apps for native-like experiences and continuous learning, given the rapid evolution of technologies
+        in
+        this field.</p>
+    
+    <img src="frontend.jpg" alt="frontend" width="500" height="300"> <br>
+</div>
+<div class="sub font2">
+    <h2 id="BE">Backeend</h2>
+    <p>backend development involves creating the visual and interactive elements of a software application, focusing on the
+        user interface and experience. This process utilizes HTML for structuring content, CSS for styling, and JavaScript
+        for
+        adding interactivity and dynamic behavior. Responsive design ensures adaptability to various devices, and frameworks
+        like React or Angular streamline development. Frontend developers prioritize cross-browser compatibility, web
+        accessibility, and user experience. They interact with backend services through APIs, implement AJAX for
+        asynchronous
+        data retrieval, and often build single-page applications with component-based architectures. Tools like Git,
+        Webpack,
+        and CSS preprocessors contribute to code management and optimization. Frontend development also embraces concepts
+        like
+        Progressive Web Apps for native-like experiences and continuous learning, given the rapid evolution of technologies
+        in
+        this field.</p>
+    <img src="java.png" alt="javalogo" width="500" height="300"><br>
+
+</div>
+    <div class="sub font2">
+        <h2 id="DB">Database</h2>
+        <p>Database involves creating the visual and interactive elements of a software application, focusing on the
+            user interface and experience. This process utilizes HTML for structuring content, CSS for styling, and JavaScript
+            for
+            adding interactivity and dynamic behavior. Responsive design ensures adaptability to various devices, and frameworks
+            like React or Angular streamline development. Frontend developers prioritize cross-browser compatibility, web
+            accessibility, and user experience. They interact with backend services through APIs, implement AJAX for
+            asynchronous
+            data retrieval, and often build single-page applications with component-based architectures. Tools like Git,
+            Webpack,
+            and CSS preprocessors contribute to code management and optimization. Frontend development also embraces concepts
+            like
+            Progressive Web Apps for native-like experiences and continuous learning, given the rapid evolution of technologies
+            in
+            this field.</p>
+        <img src="python.jpg" alt="databse" width="500" height="300"><br>
+    </div>
+
+    <div class="end footer">
+    <h3>also read about :</h3>
+    <ul>
+        <li><a href="..//HTML/forms.html" target="_blank">Artificial inteligence</a></li>
+        <li><a href="../HTML/index.html" target="_blank">SoftWare Testing</a></li>
+    </ul>
+    <h3>useful PDF's for DOwnload</h3>
+    <ul>
+        <li><a href="../HTML/List_in_HTML_-Notes_lyst6774.PDF" target="_blank">Full Stack web development</a><br></li>
+        <li><a href="../HTML/SQL (slides) (1).pdf" target="_blank">Web Development</a></li>
+    </ul>
+   </div>
+
+</body>
+</html>
